@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Large dataset files — download from PhysioNet (see README.md)
+Wearable_Dataset/
+data/Wearable_Dataset/
+data/wearable-device-dataset*/
+data/*.zip
+data/wesad_*.npz
+data/*.npy
+data/*.pkl
+
+# Large generated splits (62 MB) — reproduced by running the notebook
+outputs_wearable/wearable_splits.npz
+
+# WESAD (16 GB) — not included
+WESAD/
+WESAD.zip
+
+# Xcode build artifacts
+xcuserdata/
+**/*.xcuserstate
+DerivedData/
+*.xcbkptlist
+*.xcscheme
+build/
